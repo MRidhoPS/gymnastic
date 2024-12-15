@@ -7,9 +7,24 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        playfair: ['Playfair Display', 'serif',]
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '4rem',
+          xl: '5rem',
+          '2xl': '6rem',
+        }
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#ff8901",
+        secondary: "#fb923c",
       },
     },
   },
