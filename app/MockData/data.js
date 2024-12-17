@@ -3,6 +3,14 @@ import Image2 from "../assets/tabs/2.png";
 import Image3 from "../assets/tabs/3.png";
 import Image4 from "../assets/tabs/4.png";
 
+import Sertif1 from '../assets/lidya/1.jpg';
+import Sertif2 from '../assets/lidya/2.jpg';
+import Sertif3 from '../assets/lidya/3.jpg';
+import Sertif4 from '../assets/lidya/4.jpg';
+import Sertif5 from '../assets/lidya/5.jpg';
+import { delay } from "framer-motion";
+
+
 export const NavbarMenu = [
     {
         id: 1,
@@ -89,33 +97,58 @@ export const ProductsData = [
     },
 ];
 
+export const SertificationData = [
+    {
+        id: 1,
+        img: Sertif1,
+        delay: 0.2,
+    },
+    {
+        id: 2,
+        img: Sertif2,
+        delay: 0.5,
+    }, {
+        id: 3,
+        img: Sertif3,
+        delay: 0.8,
+    }, {
+        id: 4,
+        img: Sertif4,
+        delay: 1.1,
+    }, {
+        id: 5,
+        img: Sertif5,
+        delay: 1.4,
+    },
+];
+
 export const TestimonialsData = [
     {
         id: 1,
         name: "John Doe",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-        img: "https://picsum.photos/101/101",
+        img: Image1,
         delay: 0.2,
     },
     {
         id: 2,
         name: "Steve Smith",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-        img: "https://picsum.photos/102/102",
+        img: Image2,
         delay: 0.5,
     },
     {
         id: 3,
         name: "Kristen",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-        img: "https://picsum.photos/104/104",
+        img: Image3,
         delay: 0.8,
     },
     {
         id: 5,
         name: "Ariana",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-        img: "https://picsum.photos/103/103",
+        img: Image3,
         delay: 1.1,
     },
 ];
