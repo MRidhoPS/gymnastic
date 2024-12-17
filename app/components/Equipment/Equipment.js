@@ -12,14 +12,14 @@ const EquipmentData = [
     {
         id: 1,
         title: "Aerobik",
-        desc: "It is a long established fact that a reader readable.",
+        desc: "Cardio exercises to improve endurance, heart health, and fitness.",
         icon: <GrYoga />,
         delay: 0.3,
     },
     {
         id: 2,
         title: "Zumba",
-        desc: "It is a long established fact that a reader readable.",
+        desc: "Fun, dance-based workout with energetic Latin-inspired music moves.",
         link: "/",
         icon: <FaDumbbell />,
         delay: 0.6,
@@ -27,7 +27,7 @@ const EquipmentData = [
     {
         id: 3,
         title: "SKJ",
-        desc: "It is a long established fact that a reader readable.",
+        desc: "A structured group exercise originating in Indonesia, focused on synchronized movements set to rhythmic music, aimed at improving physical fitness, flexibility, and endurance.",
         link: "/",
         icon: <GiGymBag />,
         delay: 0.9,
@@ -35,7 +35,7 @@ const EquipmentData = [
     {
         id: 4,
         title: "Kreasi",
-        desc: "It is a long established fact that a reader readable.",
+        desc: "A creative form of exercise that combines traditional dance, modern movements, and music, encouraging freedom of expression while promoting fitness and fun.",
         link: "/",
         icon: <GiGymBag />,
         delay: 0.9,

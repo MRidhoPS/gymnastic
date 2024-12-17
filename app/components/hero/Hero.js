@@ -26,7 +26,7 @@ const Hero = () => {
                             initial='hidden'
                             animate='visible'
                             className='text-gray-600 xl:max-w-[500px]'>
-                            It is a long established fact that a reader will be by readable content of a page when are the best products.
+                            Discover the perfect blend of fun, fitness, and movement with our <span className='text-primary font-bold font-playfair'>Zumba and Aerobic </span> sessions. Zumba combines infectious Latin-inspired rhythms with energetic dance moves, turning workouts into a dance party you won't want to miss. It's perfect for anyone looking to <span className='text-primary font-bold font-playfair'>Burn</span> calories, <span className='text-primary font-bold font-playfair'>Build</span> stamina, and <span className='text-primary font-bold font-playfair'>Release</span> stress—all while having a blast!
                         </motion.p>
                         {/* Button Section */}
                         {/* <motion.div
@@ -45,11 +45,11 @@ const Hero = () => {
                     </div>
                     {/* hero image */}
                     <div className='flex justify-center items-center'>
-                        <Image 
+                        <Image
                             variants={SlideLeft(2)}
                             initial='hidden'
-                            animate='visible' 
-                        src={HeroImage} alt='' className='w-[350px] md:w-[550px] xl:w-[700px] drop-shadow' />
+                            animate='visible'
+                            src={HeroImage} alt='' className='w-[350px] md:w-[550px] xl:w-[700px] drop-shadow' />
 
                     </div>
                 </div>

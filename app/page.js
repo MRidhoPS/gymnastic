@@ -24,16 +24,16 @@ const bgStyle = {
 
 const BannerData = {
   image: Img1,
-  title: "The Importants To Take Care Of Yourself",
+  title: "Why you need to join Zumba?",
   subtitle:
-    "The Importants To Take Care Of Yourself Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id nam obcaecati sequi odio dolore officia magni reiciendis, architecto, eos, aut asperiores reprehenderit quas rerum omnis facilis quam eius doloribus maxime! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae vero inventore assumenda ducimus alias doloribus.",
+    "Joining Zumba is a fun and effective way to improve your overall health.Combining high- energy dance movements with upbeat music, Zumba provides a full - body workout that boosts cardiovascular endurance, burns calories, and strengthens muscles—all while feeling like a dance party.It’s a great stress reliever, as the lively rhythms help release endorphins, improving your mood and mental well - being.Suitable for all fitness levels, Zumba enhances flexibility, coordination, and stamina, making it a perfect choice for anyone looking to stay active, healthy, and happy in an enjoyable and social environment.",
   link: "#",
 };
 const Banner2Data = {
   image: Img2,
-  title: "The Importants To Take Care Of Yourself",
+  title: "Why you need to join Aerobic?",
   subtitle:
-    "The Importants To Take Care Of Yourself Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id nam obcaecati sequi odio dolore officia magni reiciendis, architecto, eos, aut asperiores reprehenderit quas rerum omnis facilis quam eius doloribus maxime! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae vero inventore assumenda ducimus alias doloribus.",
+    "Joining aerobic exercise is a great way to improve your overall health and fitness. Aerobics focuses on rhythmic, repetitive movements that strengthen your heart, lungs, and muscles, boosting cardiovascular endurance and promoting better oxygen circulation throughout your body. Regular aerobic workouts help burn calories, support weight loss, and tone muscles while reducing the risk of chronic conditions like heart disease, diabetes, and high blood pressure. Beyond physical health, aerobics also enhances mental well-being by reducing stress, improving mood, and boosting energy levels, making it a fun and effective way to stay active and healthy.",
   link: "#",
 };
 
