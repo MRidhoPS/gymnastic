@@ -16,27 +16,35 @@ export const metadata = {
   description: "Join Lidya Aerobic and Zumba for expert Zumba and aerobic training sessions tailored to your fitness goals. Start your fitness journey today!",
   type: 'website',
   icons: {
-    icon: '/squats.png', // For favicon
-    shortcut: '/squats.png', // For shortcut icon
-    apple: '/squats.png', // For Apple touch icon
+    icon: '/squats.png',
+    shortcut: '/squats.png',
+    apple: '/squats.png',
   },
   openGraph: {
-    title: 'My App',
-    description: 'Track your squats and progress!',
+    title: "Lidya Aerobic and Zumba",
+    description: "Join Lidya Aerobic and Zumba for expert Zumba and aerobic training sessions tailored to your fitness goals. Start your fitness journey today!",
     images: [
       {
-        url: '/squats.png', // Open Graph image
+        url: '/squats.png',
         width: 800,
         height: 600,
         alt: 'Squats Icon',
       },
     ],
   },
+  keywords: "Zumba, Aerobic, Fitness, Lidya Aerobic and Zumba, Fitness Training",
+  author: "Lidya Aerobic and Zumba",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="description" content="Join Lidya Aerobic and Zumba for expert Zumba and aerobic training sessions tailored to your fitness goals. Start your fitness journey today!" />
+        <meta name="keywords" content="Zumba, Aerobic, Fitness, Lidya Aerobic and Zumba, Fitness Training" />
+        <meta name="author" content="Lidya Aerobic and Zumba" />
+        <title>Lidya Aerobic and Zumba</title>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
