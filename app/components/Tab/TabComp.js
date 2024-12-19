@@ -35,9 +35,9 @@ const TabComp = () => {
                             initial={{ opacity: 0, x: 10 }}
                             whileInView={{ opacity: 1, x: 0 }}
                         >
-                            <Image src={card.image} alt='' className='h-[240px] w-full object-cover' />
+                            <Image src={card.image} alt='' className='h-[240px] w-full object-cover mb-4' />
                             <p className="text-xl font-semibold">{card.title}</p>
-                            <p className="text-gray-500">{card.category}</p>
+                            {/* <p className="text-gray-500">{card.category}</p> */}
                         </motion.div>
                     ))}
                 </div>

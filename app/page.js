@@ -50,7 +50,7 @@ export default function Home() {
       <TabComp />
       <Banner {...Banner2Data} />
       <Sertification />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Footer />
     </div>
   );

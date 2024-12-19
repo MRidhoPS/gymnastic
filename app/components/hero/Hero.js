@@ -18,31 +18,18 @@ const Hero = () => {
                             variants={SlideRight(0.6)}
                             initial='hidden'
                             animate='visible'
-                            className='text-5xl lg:text-6xl font-bold leading-relaxed xl:leading-normal'>
-                            Zumba Gives you the perfect <span className='text-primary'>Health</span> {" "}
+                            className='text-5xl lg:text-7xl font-bold leading-none mb-5'>
+                            Hello, I`m<span className='text-primary'> Lidya Rachmawati</span>
                         </motion.h1>
                         <motion.p
                             variants={SlideRight(1.2)}
                             initial='hidden'
                             animate='visible'
                             className='text-gray-600 xl:max-w-[500px]'>
-                            Discover the perfect blend of fun, fitness, and movement with our <span className='text-primary font-bold font-playfair'>Zumba and Aerobic </span> sessions. Zumba combines infectious Latin-inspired rhythms with energetic dance moves, turning workouts into a dance party you won't want to miss. It's perfect for anyone looking to <span className='text-primary font-bold font-playfair'>Burn</span> calories, <span className='text-primary font-bold font-playfair'>Build</span> stamina, and <span className='text-primary font-bold font-playfair'>Release</span> stress—all while having a blast!
+                            I’m a passionate <span className='text-primary font-bold font-playfair'>Zumba and Aerobics trainer</span> dedicated to helping you achieve your fitness goals while having fun. With years of experience and a vibrant community of <span className='text-primary font-bold font-playfair'>100+ satisfied clients</span>, I strive to make every session an enjoyable and empowering journey.
                         </motion.p>
-                        {/* Button Section */}
-                        {/* <motion.div
-                            variants={SlideRight(1.6)}
-                            initial='hidden'
-                            animate='visible' 
-                            className='flex justify-center gap-8 items-center md:justify-start mt-6'>
-                            <button className='primary-btn flex items-center gap-2'>
-                                {" "}
-                                Order Now
-                            </button>
-                            <button className='flex  justify-center items-center gap-2'>
-                                Watch Now
-                            </button>
-                        </motion.div> */}
                     </div>
+
                     {/* hero image */}
                     <div className='flex justify-center items-center'>
                         <Image
