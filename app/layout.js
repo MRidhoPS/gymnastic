@@ -40,14 +40,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="description" content="Join Lidya Aerobic and Zumba for expert Zumba and aerobic training sessions tailored to your fitness goals. Start your fitness journey today!" />
-        <meta name="keywords" content="Zumba, Aerobic, Fitness, Lidya Aerobic and Zumba, Fitness Training" />
-        <meta name="author" content="Lidya Aerobic and Zumba" />
-        <title>Lidya Aerobic and Zumba</title>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords} />
+        <meta name="author" content={metadata.author} />
+        <meta property="og:title" content={metadata.openGraph.title} />
+        <meta property="og:description" content={metadata.openGraph.description} />
+        <meta property="og:type" content={metadata.type} />
+        <meta property="og:url" content="https://gymnastic-a65e.vercel.app/" />
+        <meta property="og:image" content={metadata.openGraph.images[0].url} />
+        <link rel="icon" href={metadata.icons.icon} />
+        <link rel="shortcut icon" href={metadata.icons.shortcut} />
+        <link rel="apple-touch-icon" href={metadata.icons.apple} />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
