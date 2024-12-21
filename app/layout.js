@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Lidya Aerobic and Zumba",
+  title: "Instuktur Zumba Aerobic Jakara",
   description: "Join Lidya Aerobic and Zumba for expert Zumba and aerobic training sessions tailored to your fitness goals. Start your fitness journey today!",
   type: 'website',
   icons: {
@@ -21,7 +21,7 @@ export const metadata = {
     apple: '/squats.png',
   },
   openGraph: {
-    title: "Lidya Aerobic and Zumba",
+    title: "Instuktur Zumba Aerobic Jakara",
     description: "Join Lidya Aerobic and Zumba for expert Zumba and aerobic training sessions tailored to your fitness goals. Start your fitness journey today!",
     images: [
       {
