@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://gymnastic-a65e.vercel.app/sitemap.xml
