@@ -32,7 +32,8 @@ export const metadata = {
       },
     ],
   },
-  keywords: "Zumba, Aerobic, Fitness, Lidya Aerobic and Zumba, Fitness Training",
+  // keywords: "Zumba, Aerobic, Fitness, Lidya Aerobic and Zumba, Fitness Training, Instruktur Zumba Jakarta, instruktur jakarta, Zumba Aerobic Jakarta, Instruktur Senam Jakarta, Instruktur Zumba Aerobic Jakarta, Senam Jakarta, Senam Aerobic Jakarta, Senam Zumba Jakarta, Zumba Jakarta, Aerobic Jakarta, Senam Aerobic Zumba Jakarta, Senam Aerobic Zumba, Senam Aerobic, Senam Zumba, Senam, Aerobic, Zumba, Jakarta, Lidya Aerobic and Zumba, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya",
+  keywords: "Instruktur Zumba Jakarta, Senam Aerobic Jakarta, Zumba Jakarta, Tempat Senam di Jakarta, Senam Jakarta, Lidya Zumba Jakarta, Lidya Aerobic Jakarta",
   author: "Lidya Aerobic and Zumba",
 };
 
