@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Instuktur Zumba Aerobic Jakara",
-  description: "Join Lidya Aerobic and Zumba for expert Zumba and aerobic training sessions tailored to your fitness goals. Start your fitness journey today!",
+  title: "Instuktur Zumba Aerobic Jakarta",
+  description: "Temukan Instruktur Zumba Aerobic Jakarta profesional untuk kelas menyenangkan dan bugar bersama Lidya! Sebagai Instruktur Zumba Jakarta berpengalaman, Lidya menawarkan sesi Senam Aerobic Jakarta yang energik dan seru. Bergabunglah dalam komunitas Zumba Jakarta untuk gaya hidup sehat dan aktif. Cari tahu jadwal Senam Jakarta dengan Lidya, Lidya Zumba Jakarta dan Lidya Aerobic Jakarta untuk pengalaman senam terbaik!",
   type: 'website',
   icons: {
     icon: '/squats.png',
@@ -21,8 +21,8 @@ export const metadata = {
     apple: '/squats.png',
   },
   openGraph: {
-    title: "Instuktur Zumba Aerobic Jakara",
-    description: "Join Lidya Aerobic and Zumba for expert Zumba and aerobic training sessions tailored to your fitness goals. Start your fitness journey today!",
+    title: "Instuktur Zumba Aerobic Jakarta",
+    description: "Temukan Instruktur Zumba Aerobic Jakarta profesional untuk kelas menyenangkan dan bugar bersama Lidya! Sebagai Instruktur Zumba Jakarta berpengalaman, Lidya menawarkan sesi Senam Aerobic Jakarta yang energik dan seru. Bergabunglah dalam komunitas Zumba Jakarta untuk gaya hidup sehat dan aktif. Cari tahu jadwal Senam Jakarta dengan Lidya, Lidya Zumba Jakarta dan Lidya Aerobic Jakarta untuk pengalaman senam terbaik!",
     images: [
       {
         url: '/squats.png',
@@ -32,8 +32,7 @@ export const metadata = {
       },
     ],
   },
-  // keywords: "Zumba, Aerobic, Fitness, Lidya Aerobic and Zumba, Fitness Training, Instruktur Zumba Jakarta, instruktur jakarta, Zumba Aerobic Jakarta, Instruktur Senam Jakarta, Instruktur Zumba Aerobic Jakarta, Senam Jakarta, Senam Aerobic Jakarta, Senam Zumba Jakarta, Zumba Jakarta, Aerobic Jakarta, Senam Aerobic Zumba Jakarta, Senam Aerobic Zumba, Senam Aerobic, Senam Zumba, Senam, Aerobic, Zumba, Jakarta, Lidya Aerobic and Zumba, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya, Aerobic and Zumba, Aerobic and Zumba Jakarta, Aerobic and Zumba, Aerobic, Zumba, Jakarta, Lidya Aerobic, Lidya Zumba, Lidya",
-  keywords: "Instruktur Zumba Jakarta, Senam Aerobic Jakarta, Zumba Jakarta, Tempat Senam di Jakarta, Senam Jakarta, Lidya Zumba Jakarta, Lidya Aerobic Jakarta",
+  keywords: "Instruktur Zumba Jakarta, Senam Aerobic Jakarta, Zumba Jakarta, Senam Jakarta, Lidya Zumba Jakarta, Lidya Aerobic Jakarta",
   author: "Lidya Aerobic and Zumba",
 };
 
@@ -46,11 +45,10 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content={metadata.keywords} />
         <meta name="author" content={metadata.author} />
         <meta property="og:title" content={metadata.openGraph.title} />
-        {/* <meta name="google-site-verification" content="googlec0ca832322086f5b.html" /> */}
         <meta name="google-site-verification" content="4Hve-GuRIBqZLbg3Jjm99kKGV3jkgqV1mIWS6FPx0b0" />
         <meta property="og:description" content={metadata.openGraph.description} />
         <meta property="og:type" content={metadata.type} />
-        <meta property="og:url" content="https://gymnastic-a65e.vercel.app/" />
+        <meta property="og:url" content="https://instukturzumbaaerobikjakarta.vercel.app/" />
         <meta property="og:image" content={metadata.openGraph.images[0].url} />
         <link rel="icon" href={metadata.icons.icon} />
         <link rel="shortcut icon" href={metadata.icons.shortcut} />
