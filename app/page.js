@@ -26,21 +26,22 @@ const BannerData = {
   image: Img1,
   title: "Why you need to join Zumba?",
   subtitle:
-    "Joining Zumba is a fun and effective way to improve your overall health.Combining high- energy dance movements with upbeat music, Zumba provides a full - body workout that boosts cardiovascular endurance, burns calories, and strengthens muscles—all while feeling like a dance party.It’s a great stress reliever, as the lively rhythms help release endorphins, improving your mood and mental well - being.Suitable for all fitness levels, Zumba enhances flexibility, coordination, and stamina, making it a perfect choice for anyone looking to stay active, healthy, and happy in an enjoyable and social environment.",
+    "Instruktur Zumba Aerobic Jakarta - Lidya Zumba menghadirkan kelas Zumba yang energik dan menyenangkan untuk meningkatkan kesehatan Anda secara menyeluruh. Dengan gerakan tarian yang penuh energi dan musik yang seru, Zumba membantu membakar kalori, meningkatkan daya tahan tubuh, serta memperkuat otot—semuanya terasa seperti pesta dansa. Sebagai pilihan utama untuk Senam Aerobic Jakarta, Lidya Zumba Jakarta menawarkan pengalaman olahraga yang efektif untuk mengurangi stres dan meningkatkan suasana hati. Cocok untuk semua tingkatan kebugaran, Zumba bersama Lidya membantu meningkatkan fleksibilitas, koordinasi, dan stamina Anda. Bergabunglah sekarang dan temukan jadwal senam terbaik di Jakarta untuk hidup sehat dan aktif!",
   link: "#",
 };
+
 const Banner2Data = {
   image: Img2,
   title: "Why you need to join Aerobic?",
   subtitle:
-    "Joining aerobic exercise is a great way to improve your overall health and fitness. Aerobics focuses on rhythmic, repetitive movements that strengthen your heart, lungs, and muscles, boosting cardiovascular endurance and promoting better oxygen circulation throughout your body. Regular aerobic workouts help burn calories, support weight loss, and tone muscles while reducing the risk of chronic conditions like heart disease, diabetes, and high blood pressure. Beyond physical health, aerobics also enhances mental well-being by reducing stress, improving mood, and boosting energy levels, making it a fun and effective way to stay active and healthy.",
+    "Instruktur Zumba Aerobic Jakarta - Lidya Zumba menawarkan kelas senam Aerobic yang efektif untuk meningkatkan kesehatan dan kebugaran Anda. Dengan gerakan ritmis dan repetitif, Aerobic membantu memperkuat jantung, paru-paru, serta otot Anda, sekaligus meningkatkan daya tahan kardiovaskular dan sirkulasi oksigen dalam tubuh. Sebagai pilihan utama untuk Senam Aerobic Jakarta, sesi bersama Lidya Zumba Jakarta membantu membakar kalori, mendukung penurunan berat badan, serta mengurangi risiko penyakit kronis seperti penyakit jantung, diabetes, dan tekanan darah tinggi. Selain manfaat fisik, Aerobic juga mendukung kesejahteraan mental dengan mengurangi stres, meningkatkan suasana hati, dan menambah energi. Bergabunglah dalam kelas Senam Jakarta untuk hidup sehat, aktif, dan bugar bersama Lidya Aerobic Jakarta!",
   link: "#",
 };
+
 
 export default function Home() {
   return (
     <div className="overflow-x-hidden">
-
       <div style={bgStyle}>
         <Navbar />
         <Hero />

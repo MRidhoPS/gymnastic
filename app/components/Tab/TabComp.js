@@ -3,7 +3,7 @@
 import { ProductsData } from '@/app/MockData/data';
 import Image from 'next/image';
 import React, { useState } from 'react'
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const TabComp = () => {
 
@@ -13,20 +13,27 @@ const TabComp = () => {
 
     const filteredCards = activeTab === 'All' ? ProductsData : ProductsData.filter((card) => card.category === activeTab);
 
-
     return (
         <>
             <div className='container my-12 md:my-16'>
-                <div className='flex space-x-4 mb-4 p-6'>
+                {/* Tabs Section */}
+                <div className='flex flex-wrap justify-center gap-4 mb-6'>
                     {tabs.map((tab) => (
-                        <button key={tab} onClick={() => setActiveTab(tab)}
-                            className={`py-2 px-4 rounded ${activeTab === tab ? "bg-primary text-white" : "bg-gray-200 text-gray-700"} `}
+                        <button
+                            key={tab}
+                            onClick={() => setActiveTab(tab)}
+                            className={`py-2 px-4 rounded-full text-sm md:text-base font-medium 
+                                ${activeTab === tab
+                                    ? "bg-primary text-white shadow-lg"
+                                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"} 
+                            `}
                         >
                             {tab}
                         </button>
                     ))}
                 </div>
 
+                {/* Cards Section */}
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                     {filteredCards.map((card) => (
                         <motion.div
@@ -34,10 +41,18 @@ const TabComp = () => {
                             key={card.id}
                             initial={{ opacity: 0, x: 10 }}
                             whileInView={{ opacity: 1, x: 0 }}
+                            className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
                         >
-                            <Image src={card.image} alt='' className='h-[240px] w-full object-cover mb-4' />
-                            <p className="text-xl font-semibold">{card.title}</p>
-                            {/* <p className="text-gray-500">{card.category}</p> */}
+                            {/* Image Section */}
+                            <Image
+                                src={card.image}
+                                alt={card.title}
+                                className='h-[240px] w-full object-cover'
+                            />
+                            {/* Text Section */}
+                            <div className="p-4">
+                                <p className="text-xl font-semibold">{card.title}</p>
+                            </div>
                         </motion.div>
                     ))}
                 </div>
@@ -46,4 +61,4 @@ const TabComp = () => {
     )
 }
 
-export default TabComp
+export default TabComp;
