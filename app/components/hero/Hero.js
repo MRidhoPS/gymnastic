@@ -23,11 +23,13 @@ const Hero = () => {
                         </motion.h1>
                         <motion.p
                             variants={SlideRight(1.2)}
-                            initial='hidden'
-                            animate='visible'
-                            className='text-gray-600 xl:max-w-[500px]'>
-                            I’m a passionate <span className='text-primary font-bold font-playfair'>Zumba and Aerobics trainer</span> dedicated to helping you achieve your fitness goals while having fun. With years of experience and a vibrant community of <span className='text-primary font-bold font-playfair'>100+ satisfied clients</span>, I strive to make every session an enjoyable and empowering journey.
+                            initial="hidden"
+                            animate="visible"
+                            className="text-gray-600 xl:max-w-[500px]"
+                        >
+                            I’m a passionate <span className="text-primary font-bold font-playfair">Instruktur Zumba dan Aerobik Jakarta</span>, dedicated to helping you achieve your fitness goals while having fun. With years of experience as a <span className="text-primary font-bold font-playfair">Instruktur Zumba Jakarta</span>, I offer <span className="text-primary font-bold font-playfair">Senam Aerobic Jakarta</span> sessions that are energizing and enjoyable. Join over <span className="text-primary font-bold font-playfair">100+ satisfied clients</span> in our vibrant <span className="text-primary font-bold font-playfair">Zumba Jakarta</span> community, where we make fitness fun and empowering. Discover the best <span className="text-primary font-bold font-playfair">Senam Jakarta</span> classes with <span className="text-primary font-bold font-playfair">Lidya Zumba Jakarta</span> and <span className="text-primary font-bold font-playfair">Lidya Aerobic Jakarta</span> for a healthier, more active lifestyle.
                         </motion.p>
+
                     </div>
 
                     {/* hero image */}
