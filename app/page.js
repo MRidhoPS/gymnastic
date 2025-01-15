@@ -13,6 +13,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from "./components/Footer/Footer";
 import Sertification from "./components/Sertification/Sertification";
+import Contact from "./components/Contact/Contact";
 
 const bgStyle = {
   backgroundImage: `url(${bgImage.src})`,
@@ -52,6 +53,7 @@ export default function Home() {
       <Banner {...Banner2Data} />
       <Sertification />
       {/* <Testimonials /> */}
+      <Contact />
       <Footer />
     </div>
   );

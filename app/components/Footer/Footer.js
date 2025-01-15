@@ -38,11 +38,11 @@ const Footer = () => {
                     <div className="space-y-4">
                         <h1 className="text-xl font-semibold mb-2">Contact Us</h1>
                         <ul className="space-y-3 text-gray-300">
-                            <li className="flex items-center gap-3">
+                            {/* <li className="flex items-center gap-3">
                                 <FaPhone className="text-yellow-400" />
                                 <p>+62 812-880-25956
                                 </p>
-                            </li>
+                            </li> */}
                             <li className="flex items-center gap-3">
                                 <FaGoogle className="text-yellow-400" />
                                 <p>Lidyarachmawati7@gmail.com </p>
