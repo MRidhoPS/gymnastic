@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Instruktur Zumba Aerobic Jakarta - Lidya Zumba",
-  description: "Temukan Instruktur Zumba Aerobic Jakarta profesional untuk kelas menyenangkan dan bugar bersama Lidya! Sebagai Instruktur Zumba Jakarta berpengalaman, Lidya menawarkan sesi Senam Aerobic Jakarta yang energik dan seru. Bergabunglah dalam komunitas Zumba Jakarta untuk gaya hidup sehat dan aktif. Cari tahu jadwal Senam Jakarta dengan Lidya Zumba Jakarta dan Lidya Aerobic Jakarta untuk pengalaman senam terbaik!",
+  title: "Instruktur Senam Zumba Aerobik Jakarta - Lidya Zumba",
+  description: "Temukan Instruktur Senam Zumba Aerobik Jakarta profesional untuk kelas menyenangkan dan bugar bersama Lidya! Sebagai Instruktur Zumba Jakarta berpengalaman, Lidya menawarkan sesi Senam Aerobik Jakarta yang energik dan seru. Bergabunglah dalam komunitas Zumba Jakarta untuk gaya hidup sehat dan aktif. Cari tahu jadwal Senam Jakarta dengan Lidya Zumba Jakarta dan Lidya Aerobik Jakarta untuk pengalaman senam terbaik!",
   type: "website",
   icons: {
     icon: "/squats.png",
@@ -21,20 +21,20 @@ export const metadata = {
     apple: "/squats.png",
   },
   openGraph: {
-    title: "Instruktur Zumba Aerobic Jakarta - Lidya Zumba",
-    description: "Lidya Rachmawati, instruktur Zumba dan Aerobic profesional di Jakarta, menawarkan kelas senam energik untuk gaya hidup sehat. Daftar sekarang!",
+    title: "Instruktur Senam Zumba Aerobik Jakarta - Lidya Zumba",
+    description: "instruktur Zumba dan Aerobik profesional di Jakarta, menawarkan kelas senam energik untuk gaya hidup sehat. Daftar sekarang!",
     images: [
       {
         url: "/squats.png",
         width: 800,
         height: 600,
-        alt: "Instruktur Zumba Aerobic Jakarta",
+        alt: "Instruktur Zumba Aerobik Jakarta",
       },
     ],
     url: "https://instukturzumbaaerobikjakarta.vercel.app/",
   },
-  keywords: "Instruktur Zumba Jakarta, Senam Aerobic Jakarta, Zumba Jakarta, Senam Jakarta, Lidya Zumba Jakarta, Lidya Aerobic Jakarta",
-  author: "Lidya Aerobic and Zumba",
+  keywords: "Instruktur Zumba Jakarta, Senam Aerobik Jakarta, Zumba Jakarta, Senam Jakarta, Aerobik Jakarta",
+  author: "Lidya Aerobik and Zumba",
 };
 
 export default function RootLayout({ children }) {
@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href={metadata.icons.icon} />
         <link rel="shortcut icon" href={metadata.icons.shortcut} />
         <link rel="apple-touch-icon" href={metadata.icons.apple} />
-        <link rel="canonical" href="https://instukturzumbaaerobikjakarta.vercel.app/" />
+        <link rel="canonical" href={metadata.openGraph.url} />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",

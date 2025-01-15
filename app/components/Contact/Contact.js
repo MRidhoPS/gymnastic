@@ -15,7 +15,7 @@ export default function Contact() {
         message: "",
     });
 
-    const personalWhatsAppNumber = "6289526826583"; // Replace with your WhatsApp number (without '+')
+    const personalWhatsAppNumber = "6281288025956"; // Replace with your WhatsApp number (without '+')
 
     const handleChange = (e) => {
         const { name, value } = e.target;

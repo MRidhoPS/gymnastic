@@ -12,6 +12,7 @@ const Footer = () => {
                         <div className="flex items-center gap-2 text-2xl font-bold uppercase">
                             <p>Lidya</p>
                             <p className="text-yellow-400">Zumba</p>
+                            <p>Aerobik</p>
                         </div>
                         <p className="text-gray-300 text-sm leading-relaxed">
                             Helping you stay active, healthy, and happy through fun Zumba and Aerobic sessions. Join us and transform your fitness journey!
