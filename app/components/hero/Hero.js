@@ -5,15 +5,26 @@ import HeroImage from '../../assets/dumbell.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { SlideLeft, SlideRight, SlideUp } from '@/app/utility/animations'
+import { animateScroll as scroll, scroller } from 'react-scroll';
 
 
 const Hero = () => {
+
+    const handleScrollToContact = () => {
+        scroller.scrollTo('contact', {
+            duration: 1000,
+            delay: 0,
+            smooth: 'easeInOut',
+        });
+    };
+
+
     return (
         <>
             <section>
                 <div className='container grid grid-cols-1 md:grid-cols-2 min-h-[650px] relative'>
                     {/* brand info */}
-                    <div className='text-center md:text-left flex flex-col justify-center py-14 md:py-0 font-playfair'>
+                    <div className='text-center md:text-left flex flex-col justify-center items-center md:items-start py-14 md:py-0 font-playfair'>
                         <motion.h1
                             variants={SlideRight(0.6)}
                             initial='hidden'
@@ -25,12 +36,21 @@ const Hero = () => {
                             variants={SlideRight(1.2)}
                             initial="hidden"
                             animate="visible"
-                            className="text-gray-600 xl:max-w-[500px]"
+                            className="text-gray-600 xl:max-w-[500px] mb-6"
                         >
-                            Saya adalah <span className="text-primary font-bold font-playfair">Instruktur Zumba</span> dan <span className="text-primary font-bold font-playfair">Senam Aerobik</span> di Jakarta yang berdedikasi untuk membantu Anda mencapai tujuan kebugaran sambil bersenang-senang. Dengan pengalaman bertahun-tahun memimpin sesi <span className="text-primary font-bold font-playfair">Zumba</span> dan <span className="text-primary font-bold font-playfair">senam aerobik</span> , saya berfokus pada menciptakan latihan yang energik dan menyenangkan. Bergabunglah dengan komunitas kami yang terdiri dari lebih dari <span className="text-primary font-bold font-playfair">100+ klien puas</span> dan temukan bagaimana kebugaran bisa menjadi menyenangkan sekaligus memberdayakan. Baik Anda mencari kelas <span className="text-primary font-bold font-playfair">Senam</span> terbaik atau sesi <span className="text-primary font-bold font-playfair">Zumba</span> yang dinamis, saya siap membimbing Anda menuju gaya hidup yang lebih sehat dan aktif.
+                            Saya adalah <span className="text-primary font-bold font-playfair">Instruktur Zumba</span> dan <span className="text-primary font-bold font-playfair">Senam Aerobik</span> di Jakarta dengan pengalaman bertahun-tahun memimpin sesi <span className="text-primary font-bold font-playfair">Zumba</span> dan <span className="text-primary font-bold font-playfair">senam aerobik</span>
                         </motion.p>
-
+                        <motion.button
+                            onClick={handleScrollToContact}
+                            variants={SlideRight(1.5)}
+                            initial="hidden"
+                            animate="visible"
+                            className="px-6 py-3 text-sm md:text-base bg-primary text-white rounded-md shadow-lg hover:bg-primary-dark focus:outline-none transition-all w-[150px] hover:bg-yellow-400"
+                        >
+                            Contact Me
+                        </motion.button>
                     </div>
+
 
                     {/* hero image */}
                     <div className='flex justify-center items-center'>
