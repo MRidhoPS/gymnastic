@@ -9,7 +9,7 @@ const TabComp = () => {
 
     const [activeTab, setActiveTab] = useState('All');
 
-    const tabs = ['All', 'Zumba', 'Aerobic', 'SKJ', 'Kreasi'];
+    const tabs = ['All', 'Zumba', 'Aerobic', 'SKJ', 'Kreasi', 'Aquatic'];
 
     const filteredCards = activeTab === 'All' ? ProductsData : ProductsData.filter((card) => card.category === activeTab);
 

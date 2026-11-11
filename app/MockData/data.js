@@ -32,6 +32,13 @@ import SKJ2 from '../assets/lidya/skj/2.jpg'
 import SKJ3 from '../assets/lidya/skj/3.jpg'
 import SKJ4 from '../assets/lidya/skj/4.jpg'
 
+import Aquatic1 from '../assets/lidya/zumbaaquatic/1.jpg';
+import Aquatic2 from '../assets/lidya/zumbaaquatic/2.jpg';
+import Aquatic3 from '../assets/lidya/zumbaaquatic/3.jpg';
+import Aquatic4 from '../assets/lidya/zumbaaquatic/4.jpg';
+import Aquatic5 from '../assets/lidya/zumbaaquatic/5.jpg';
+import Aquatic6 from '../assets/lidya/zumbaaquatic/6.jpg';
+
 export const NavbarMenu = [
     {
         id: 1,
@@ -177,6 +184,36 @@ export const ProductsData = [
         info: "info",
         price: "$100",
         alt: "Lidya SKJ Jakarta"
+    },
+
+    {
+        id: 14,
+        category: "Aquatic",
+        image: Aquatic1,
+        title: "Zumba Aquatic",
+        info: "info",
+        price: "$100",
+        alt: "Lidya Zumba Aquatic Jakarta"
+    },
+
+    {
+        id: 14,
+        category: "Aquatic",
+        image: Aquatic2,
+        title: "Kegiatan Zumba Aquatic",
+        info: "info",
+        price: "$100",
+        alt: "Lidya Zumba Aquatic Jakarta"
+    },
+
+    {
+        id: 15,
+        category: "Aquatic",
+        image: Aquatic3,
+        title: "Kegiatan Zumba Aquatic",
+        info: "info",
+        price: "$100",
+        alt: "Lidya Zumba Aquatic Jakarta"
     },
 ];
 
