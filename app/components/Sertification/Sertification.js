@@ -35,7 +35,7 @@ const Sertification = () => {
                         <Image
                             src={data.img}
                             className='w-full h-full object-contain '
-                            alt='Certification Image'
+                            alt={data.alt}
                         />
                     </div>
                 ))}

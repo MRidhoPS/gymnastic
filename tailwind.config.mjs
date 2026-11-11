@@ -27,6 +27,7 @@ export default {
         primary: "#ff8901",
         secondary: "#fb923c",
       },
+      playfair: ['var(--font-playfair)', 'Playfair Display', 'serif'],
     },
   },
   plugins: [],

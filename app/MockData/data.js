@@ -219,33 +219,11 @@ export const ProductsData = [
 ];
 
 export const SertificationData = [
-    {
-        id: 1,
-        img: Sertif1,
-        delay: 0.2,
-    },
-    {
-        id: 2,
-        img: Sertif2,
-        delay: 0.5,
-    }, {
-        id: 3,
-        img: Sertif3,
-        delay: 0.8,
-    }, {
-        id: 4,
-        img: Sertif4,
-        delay: 1.1,
-    }, {
-        id: 5,
-        img: Sertif5,
-        delay: 1.4,
-    },
-    {
-        id: 6,
-        img: Sertif6,
-        delay: 1.4,
-    },
+    { id: 1, img: Sertif1, alt: "Sertifikat Instruktur Senam Pencegahan Osteoporosis Perwatusi-PEROSI, November 2024" },
+    { id: 2, img: Sertif2, alt: "Lisensi Instruktur Zumba Resmi (Zumba Instructor License B1), September 2022" },
+    { id: 3, img: Sertif3, alt: "Sertifikat Pelatihan Instruktur SKJ Pelajar DKI Jakarta dari Kemenpora, November 2022" },
+    { id: 4, img: Sertif4, alt: "Sertifikat Pelatihan Instruktur Aerobik BUGARIA angkatan 58, Oktober 2018" },
+    { id: 5, img: Sertif5, alt: "Sertifikat Workshop BL Lobimix Mummy Gymnastic, Januari 2020" },
 ];
 
 export const TestimonialsData = [
