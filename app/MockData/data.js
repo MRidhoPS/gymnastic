@@ -9,6 +9,7 @@ import Sertif2 from '../assets/lidya/2.jpg';
 import Sertif3 from '../assets/lidya/3.jpg';
 import Sertif4 from '../assets/lidya/4.jpg';
 import Sertif5 from '../assets/lidya/5.jpg';
+import Sertif6 from '../assets/lidya/6.jpg';
 import { delay } from "framer-motion";
 
 // Zumba image
@@ -238,6 +239,11 @@ export const SertificationData = [
     }, {
         id: 5,
         img: Sertif5,
+        delay: 1.4,
+    },
+    {
+        id: 6,
+        img: Sertif6,
         delay: 1.4,
     },
 ];
